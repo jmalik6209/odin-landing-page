@@ -9,13 +9,13 @@ body{
 #header-section{
     background-color: #1F2937;
     width: 100%;
-    height: 475px;
+    height: 500px;
 }
 
 #info-section{
     background-color: #F9FAF8;
     width: 100%;
-    height: 400px;
+    height: 475px;
 }
 
 #quote-section{
@@ -40,13 +40,16 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#info-section{
+    justify-content: center;
+    overflow: scroll;
 }
 
 .wrapper{
-    max-width: 1100px;
-    margin: 0px;
+    max-width: 1125px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,7 +128,42 @@ body{
     text-decoration: none;
     background-color: #3882f6;
     color: #E5E7EB;
-    padding: 5px;
-    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
     align-self: flex-start;
+}
+
+#info-header{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.imgcontainer{
+    display: flex;
+}
+
+.infoimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+
+}
+
+
+.infoimg figcaption{
+    font-size: 14px;
+    color: #ABB0B7
+}
+
+.infoimg img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    flex: 1;
 }
