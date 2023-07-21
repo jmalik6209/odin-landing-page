@@ -1,5 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 #header-section{
     background-color: #1F2937;
@@ -29,4 +34,42 @@ body{
     background-color: #1F2937;
     width: 100%;
     height: 125px;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin:auto;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+
+#header-logo{
+    font-size: 26px;
+    color: #F9FAF8;
+    margin-top: 20px;
+}
+
+.menu-item a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item{
+    list-style: none;
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 12.5px;
+    
+    
 }
