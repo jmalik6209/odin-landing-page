@@ -161,6 +161,11 @@ footer a:hover{
     align-self: flex-start;
 }
 
+#hero-button:hover{
+    background-color: #E5E7EB;
+    color:#3882f6;
+}
+
 #info-header{
     font-size: 36px;
     font-weight: 1000;
