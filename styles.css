@@ -18,6 +18,12 @@ body{
     height: 475px;
     justify-content: center;
     overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+#info-section::-webkit-scrollbar{
+    display: none;
 }
 
 #quote-section{
@@ -31,6 +37,12 @@ body{
     width: 100%;
     height: 375px;
     overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+#action-section::-webkit-scrollbar{
+    display: none;
 }
 
 footer{
@@ -200,6 +212,12 @@ footer a:hover{
 
 .messagecontainer{
     overflow:auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.messagecontainer::-webkit-scrollbar{
+    display: none;
 }
 
 #quote{
@@ -270,4 +288,26 @@ footer a:hover{
     color:#3882f6;
     background-color: #F9FAF8;
     border: 2px solid #3882f6;
+}
+
+@media screen and (max-width: 711px){
+    .hero{
+        flex-direction: column;
+    }
+    #hero-image{
+        margin-left: 0px;
+        margin-top: 5%;
+    }
+    .menu-item{
+        display: block;
+    }
+    .menu{
+        justify-content: space-evenly;
+    }
+
+    .actioncontainer{
+        flex-direction: column;
+    }
+
+
 }
