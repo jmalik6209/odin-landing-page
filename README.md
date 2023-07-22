@@ -6,8 +6,8 @@ This is a project I am doing as a part of [The Odin Project's](https://www.theod
 
 ## Links:
 
-* [Assignment Details](https://jmalik6209.github.io/odin-landing-page/)
-* [Link to finished site](https://www.theodinproject.com/)
+* [Assignment Details](https://www.theodinproject.com/lessons/foundations-landing-page)
+* [Link to finished site](https://jmalik6209.github.io/odin-landing-page/)
 
 ## Additional Notes:
 
